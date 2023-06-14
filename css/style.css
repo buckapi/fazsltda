@@ -200,7 +200,7 @@ button:focus {
 
 p {
 	margin: 30px 0 0 0;
-	font-family: 'Inter', sans-serif;
+	font-family: Open Sans, sans-serif;
 }
 
 a {
@@ -397,9 +397,7 @@ h6 {
 }
 
 .bottom-padding-60 {
-	padding-bottom: 35px;
-    padding-left: 15px;
-    padding-right: 15px;
+	padding-bottom: 60px;
 }
 
 .top-bottom-padding-50 {
@@ -3200,7 +3198,7 @@ body,
 }
 
 .open-sans-text {
-	font-family: 'Inter', sans-serif !important;
+	font-family: Open Sans, sans-serif !important;
 }
 
 .oswald-text {
@@ -3308,13 +3306,12 @@ body,
 }
 
 .title-style {
-	text-align: initial;
-	
-	font-weight: 400;
-	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 2px;
 	font-family: 'Oswald', sans-serif;
-	line-height: 1.4;
-	font-size: 19px;
+	line-height: 1;
+	font-size: 30px;
 }
 
 .small-title {
@@ -3323,17 +3320,16 @@ body,
 	line-height: 1.4;
 	font-weight: 600;
 	letter-spacing: 0px;
-	font-family: 'Inter', sans-serif;
+	font-family: Open Sans, sans-serif;
 }
 
 .small-title-oswald {
-	
-	font-size: 18px;
+	text-transform: uppercase;
+	font-size: 16px;
 	line-height: 1.4;
-	font-weight: 700;
+	font-weight: 600;
 	letter-spacing: 0px;
 	font-family: 'Oswald', sans-serif;
-	text-align: center;
 }
 
 .xsmall-title-oswald {
@@ -3391,19 +3387,20 @@ body,
 }
 
 .p-style-xsmall {
-	font-size: 15px;
-	line-height: 1.35;
-	font-weight: 400;
-	letter-spacing: 1px;
-	font-family: 'Inter', sans-serif;
+	    font-size: 15px;
+    line-height: 1.35;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: Open Sans, sans-serif;
+
 }
 
 .p-style-small {
-	font-size: 16px;
-	line-height: 2.15;
-	font-weight: 500;
-	letter-spacing: 1px;
-	font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 2.15;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: Open Sans, sans-serif;
 }
 
 .p-style-medium {
@@ -3411,7 +3408,7 @@ body,
 	line-height: 1.8;
 	font-weight: 600;
 	letter-spacing: 0px;
-	font-family: 'Inter', sans-serif;
+	font-family: Open Sans, sans-serif;
 }
 
 .p-style-large {
@@ -3419,7 +3416,7 @@ body,
 	line-height: 1.8;
 	font-weight: 400;
 	letter-spacing: 0px;
-	font-family: 'Inter', sans-serif;
+	font-family: Open Sans, sans-serif;
 }
 
 .p-style-bold {
@@ -3436,22 +3433,22 @@ body,
 	line-height: 1.5;
 	font-weight: 700;
 	letter-spacing: 1px;
-	font-family: 'Inter', sans-serif;
+	font-family: Open Sans, sans-serif;
 }
 
 .p-letter-style {
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 10px;
 	line-height: 1;
 	font-weight: 400;
-	letter-spacing: 4px;
+	letter-spacing: 5px;
 	font-family: 'Oswald', sans-serif;
 }
 
 @media only screen and (max-width: 1199px) {
 	
 	.title-style {
-		font-size: 15px;
+		font-size: 28px;
 	}
 	
 	.medium-title {
@@ -3476,7 +3473,7 @@ body,
 @media only screen and (max-width: 999px) {
 	
 	.title-style {
-		font-size: 15px; 
+		font-size: 26px; 
 	}
 	
 	.medium-title {
@@ -3509,11 +3506,11 @@ body,
 @media only screen and (max-width: 767px) {
 	
 	.title-style {
-		font-size: 15px;
+		font-size: 25px;
 	}
 	
 	.small-title-oswald {
-		font-size: 16px;
+		font-size: 13px;
 	}
 	
 	.xsmall-title-oswald {
@@ -3558,15 +3555,15 @@ body,
 @media only screen and (max-width: 549px) {
 	
 	.title-style {
-		font-size: 15px;
+		font-size: 23px;
 	}
 	
 	.small-title-oswald {
-		font-size: 15px;
+		font-size: 12px;
 	}
 	
 	.xsmall-title-oswald {
-		font-size: 16px;
+		font-size: 10px;
 	}
 	
 	.medium-title {
@@ -3608,7 +3605,7 @@ body,
 .to-top-btn {
   	position: fixed;
   	bottom: 40px;
-  	right: 13px;
+  	right: 20px;
   	overflow: hidden;
   	width: 40px;
   	height: 40px;
@@ -3622,6 +3619,7 @@ body,
   	-webkit-transition-delay: 0s;
   	    -o-transition-delay: 0s;
   	        transition-delay: 0s;
+  	            border-radius: 30%;
 }
 
 .to-top-btn.mPS2id-highlight {
@@ -3638,7 +3636,7 @@ body,
 }
 
 .to-top-btn:before {
-  content: '';
+  	content: '';
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -3651,7 +3649,6 @@ body,
 	-webkit-transition: .6s cubic-bezier(.858, .01, .068, .99);
 		-o-transition: .6s cubic-bezier(.858, .01, .068, .99);
 			transition: .6s cubic-bezier(.858, .01, .068, .99);
-			border-radius: 30%;
 }
 
 .to-top-btn.mPS2id-highlight:before {
@@ -4039,7 +4036,7 @@ body,
 	display: inline-block;
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
-	font-size: 18px;
+	font-size: 12px;
 	line-height: 1;
 	font-weight: 500;
 	letter-spacing: 3px;
@@ -5396,14 +5393,14 @@ body.anim .load-title-fill:after {
 		display: -webkit-box;
 			display: -ms-flexbox;
 				display: flex;
-		-webkit-box-pack: initial;
-		    -ms-flex-pack: initial;
-		        justify-content: initial;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 	}
 	
 	.footer-menu,
 	.footer-social {
-		text-align: initial;
+		text-align: center;
 	}
 	
 }
@@ -5748,7 +5745,7 @@ button.mfp-close {
 .flex-min-height-inner {
 	width: 100%;
 	height: 100%;
-	min-height: 60vh;
+	min-height: 100vh;
 	display: -webkit-box;
 		display: -ms-flexbox;
 			display: flex;
@@ -7270,7 +7267,6 @@ body.out .portfolio-column-slider .slider-arrow-next-box {
 	-webkit-transition-delay: 0s;
 	    -o-transition-delay: 0s;
 	        transition-delay: 0s;
-	        text-align: center;
 }
 
 .swiper-slide-active .portfolio-slider-overlay {
@@ -7392,8 +7388,8 @@ body.out .swiper-slide-active .portfolio-slider-fade {
 
 .portfolio-slider2 .portfolio-slider2-content {
 	position: absolute;
-	bottom: 10px;
-	left: 10px;
+	bottom: 20px;
+	left: 20px;
 	overflow: hidden;
 	width: calc(100% - 40px);
 }
@@ -9346,16 +9342,15 @@ textarea.form-input {
 	}
 		
 }
-
 .whatsapp {
   position:fixed;
   width:45px;
   height:45px;
   bottom: 95px;
-  right: 9px;
+  right: 20px;
   background-color: #111517;
   color: #fff;
-  border-radius: 50%;
+  border-radius: 30%;
   text-align: center;
   font-size: 35px;
   z-index: 100;
